@@ -3,7 +3,7 @@ export class ToDoListItemsModel{
     items;
     
     constructor(){
-        this.user="Strawberry"
+        this.user="XXX"
         this.items =[
             new ToDoItem("Breakfeast",true),
             new ToDoItem("Work",false),
