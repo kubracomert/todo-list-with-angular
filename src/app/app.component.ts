@@ -21,9 +21,8 @@ export class AppComponent {
     return this.model.items.filter(item=>!item.state)
   }
 
-  destroyMission(selectedItem:ToDoItem){//this function continue 
-    console.log(this.model.items.filter(item=>item.mission!==selectedItem.mission))
-    return this.model.items.filter(item=>item.mission!==selectedItem.mission)
+  destroyMission(selectedItem:ToDoItem){
+    return this.model.items=this.model.items.filter(item=>item.mission!==selectedItem.mission)
   }
 
   addMission(mission:string){
